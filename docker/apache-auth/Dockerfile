@@ -1,4 +1,4 @@
-FROM alpine
+FROM alpine:3.20.3
 
 ENV HTPASSWD_USER=apache
 ENV HTPASSWD_PASS=123
